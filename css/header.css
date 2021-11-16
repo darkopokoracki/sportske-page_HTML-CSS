@@ -1,0 +1,88 @@
+.header-div {
+    background: #18315A;
+    padding: 1rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-wrapper {
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+.icons i {
+    color: white;
+    margin: .1rem;
+    font-size: 1.125rem;
+}
+
+.icons i:hover {
+    opacity: 0.8;
+}
+
+#search-icon {
+    font-size: .9rem;
+}
+
+.icons span {
+    color: white;
+    margin: 0 1rem;
+}
+
+.subscribe {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.subscribe a {
+    color: #f3f1f1; /* #A2ADC1 */
+    font-size: .8rem;
+    text-decoration: none;
+    margin-left: .5rem;
+}
+
+.first-list {
+    display: flex;
+    background: #3E87D0;
+}
+
+.first-list li {
+    list-style: none;
+    padding: 0.85rem 1rem;
+}
+
+.first-list li:hover {
+    background: #29487A;
+}
+
+.first-list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F3F1F1;
+    font-size: 0.9rem;
+}
+
+.second-list {
+    display: flex;
+    padding: .85rem 0;
+    background: #EAEAEA;
+}
+
+.second-list li {
+    list-style: none;
+    margin-left: 1rem;
+    margin-right: .5rem;
+}
+
+.second-list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #535a63;
+    font-size: 0.9rem;
+}
+
+.second-list li a:hover {
+    color: #3E87D0;
+}
