@@ -1,0 +1,186 @@
+.path {
+    font-size: .8rem;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding: .5rem 0;
+}
+
+.path a {
+    text-decoration: none;
+    color: #3E87D0;
+    transition: 200ms;
+}
+
+.path a:hover {
+    color: #333333;
+}
+
+.buttons-wrapper {
+    display: flex;
+}
+
+#dajgol-btn {
+    width: 13%;
+    text-transform: uppercase;
+    color: #F3F1EE;
+    background: #3E87D0;
+    padding: .9rem;
+    border-bottom: 3px solid #3E87D0;
+    font-size: .9rem;
+    font-weight: bold;
+    cursor: default;
+}
+
+#dajgol-blank-btn {
+    width: 87%;
+    text-transform: uppercase;
+    color: #29487A;
+    background: #29487A;
+    padding: .75rem;
+    align-self: flex-end;
+    border-bottom: 3px solid #3E87D0;
+    font-size: .8rem;
+    font-weight: bold;
+    cursor: default;
+}
+
+.dajgol {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem .75rem;
+    background: rgb(247, 247, 247); 
+}
+
+.dajgol img {
+    width: 48%;
+    cursor: pointer;
+}
+
+.dajgol-text-wrapper {
+    width: 48%;
+}
+
+.dajgol-text-wrapper h2 {
+    color: #3E87D0;
+    cursor: pointer;
+    transition: 100ms;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.dajgol-text-wrapper h2:hover {
+    color: #29487A;
+}
+
+.pen-date-comment {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.pen {
+    display: flex;
+    color: #697171;
+    font-size: .86rem;
+    margin-right: 1rem;
+}
+
+.pen i {
+    margin-right: .5rem;
+}
+
+.date {
+    display: flex;
+    color: #697171;
+    font-size: .8rem;
+    margin-right: 1rem;
+}
+
+.date i {
+    margin-right: .5rem;
+}
+
+.comment {
+    display: flex;
+    color: #3E87D0;
+    font-size: .86rem;
+}
+
+.comment i {
+    margin-right: .4rem;
+    cursor: pointer;
+}
+
+.comment i:hover {
+    color: #697171;
+}
+
+.dajgol .description {
+    color: #697171;
+    font-size: .86rem;
+}
+
+.buttons-navigation {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.buttons-navigation button {
+    width: 13%;
+    padding: .75rem;
+    background: white;
+    color: #697171;
+    font-size: 1.125rem;
+    transition: 200ms;
+}
+
+.buttons-navigation button:hover {
+    background: #29487A;
+    color: #F3F1EE;
+}
+
+.preporuka-section {
+    margin-top: 2rem;
+}
+
+.preporuka-section h2 {
+    padding: .75rem;
+    color: #F3F1EE;
+    width: 100%;
+    background: #29487A;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+.preporuka-wrapper {
+    padding: .75rem;
+    display: flex;
+    background: rgb(247, 247, 247);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.preporuka {
+    width: 32%;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.preporuka:hover img {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.preporuka p {
+    margin-top: .5rem;
+    font-weight: bold;
+    color: #2F373E;
+    line-height: 1.3;
+}
+
+.preporuka p span {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}

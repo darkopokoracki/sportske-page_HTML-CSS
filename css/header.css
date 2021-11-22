@@ -49,7 +49,6 @@
 
 .first-list li {
     list-style: none;
-    padding: 0.85rem 1rem;
 }
 
 .first-list li:hover {
@@ -62,6 +61,8 @@
     font-weight: bold;
     color: #F3F1F1;
     font-size: 0.9rem;
+    display: block;
+    padding: 0.85rem 1rem;
 }
 
 .second-list {

@@ -26,6 +26,11 @@
 .path a {
     text-decoration: none;
     color: #3E87D0;
+    transition: 200ms;
+}
+
+.path a:hover {
+    color: #333333;
 }
 
 .registracija-form {
