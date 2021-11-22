@@ -12,3 +12,151 @@
     width: 30%;
     margin-top: 1rem;
 }
+
+/* --------------------------- */
+
+.path {
+    font-size: .8rem;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding: .5rem 0;
+}
+
+.path a {
+    text-decoration: none;
+    color: #3E87D0;
+}
+
+.registracija-form {
+    border-bottom: 2px solid rgb(225, 225, 225);
+    padding-bottom: 1rem;
+}
+
+.registracija-title,
+.nalog-title,
+.povezi-se-title {
+    color: #333333;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.registracija-row-1,
+.registracija-row-2,
+.registracija-row-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.registracija-row-1 div,
+.registracija-row-2 div,
+.registracija-row-3 div {
+    width: 48%;
+}
+
+label.dblock {
+    display: block;
+    margin-bottom: .2rem;
+    color: #333333;
+    font-size: 1.1rem;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    width: 100%;
+    padding: .6rem;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+input:focus {
+    outline: none;
+}
+
+.registracija-row-4,
+.registracija-row-5 {
+    display: flex;
+    align-items: center;
+}
+
+.registracija-row-4 {
+    margin-bottom: 1.5rem;
+}
+
+label[for='checkbox-uslovi'] {
+    font-size: .9rem;
+    color: #3E87D0;
+    margin-left: .5rem;
+    cursor: pointer;
+}
+
+label[for='checkbox-novosti'] {
+    font-size: .9rem;
+    margin-left: .5rem;
+}
+
+#registracija-btn,
+#nalog-btn {
+    background: #3E87D0;
+    color: #F3F1F1;
+    padding: .75rem;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: .4px;
+    transition: 200ms;
+}
+
+#registracija-btn:hover,
+#nalog-btn:hover {
+    background-color: #29487A;
+}
+
+.nalog {
+    padding: 1rem 0;
+    border-bottom: 2px solid rgb(225, 225, 225);
+}
+
+.nalog-title {
+    margin-bottom: 0;
+}
+
+.povezi-se {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.icons-wrapper i {
+    margin: .3rem;
+    font-size: 2rem;
+}
+
+.icons-wrapper i#fb {
+    color: #3C5B9B;
+}
+
+.icons-wrapper i#twitter {
+    color: #4BAAE1;
+}
+
+.icons-wrapper i#google {
+    color: #D64937;
+}
+
+.icons-wrapper i:hover {
+    opacity: 0.8;
+}
+
+.prednosti-title {
+    color: #333333;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.prednosti-list li {
+    color: #333333;
+    font-size: .9rem;
+    list-style: none;
+    margin-bottom: 1.5rem;
+}

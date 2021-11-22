@@ -1,0 +1,89 @@
+.path {
+    font-size: .8rem;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding: .5rem 0;
+}
+
+.path a {
+    text-decoration: none;
+    color: #3E87D0;
+}
+
+.kontakt-title {
+    text-align: center;
+    color: #333333;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.kontakt-text {
+    color: #333333;
+    font-size: .96em;
+    line-height: 1.7;
+}
+
+.kontakt-text a {
+    text-decoration: none;
+    color: #3E87D0;
+    transition: 150ms;
+}
+
+.kontakt-text a:hover {
+    color: #333333;
+}
+
+.form-row-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.ime-prezime-wrapper {
+    width: 48%;
+}
+
+.email-wrapper {
+    width: 48%;
+}
+
+label {
+    display: block;
+    margin-bottom: .2rem;
+    color: #333333;
+    font-size: 1.1rem;
+}
+
+input {
+    width: 100%;
+    padding: .6rem;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea {
+    border: 1px solid rgb(225, 225, 225);
+    width: 100%;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+#posalji-btn {
+    background: #3E87D0;
+    color: #F3F1F1;
+    padding: .75rem;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: .4px;
+    transition: 200ms;
+}
+
+#posalji-btn:hover {
+    background-color: #29487A;
+}
