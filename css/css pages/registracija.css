@@ -1,0 +1,14 @@
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.main-left {
+    width: 68%;
+}
+
+.main-right {
+    width: 30%;
+    margin-top: 1rem;
+}

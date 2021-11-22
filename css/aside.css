@@ -1,0 +1,95 @@
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.main-left {
+    width: 68%;
+}
+
+.main-right {
+    width: 30%;
+    margin-top: 1rem;
+}
+
+.pogledajte-section {
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .75rem;
+}
+
+.pogledajte {
+    width: 48%;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.pogledajte-title, .promo-section h2 {
+    padding: .75rem;
+    color: #F3F1EE;
+    width: 100%;
+    background: #29487A;
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+.pogledajte p {
+    font-size: .8rem;
+    color: #666;
+    line-height: 1.4;
+    transition: 300ms;
+}
+
+.pogledajte:hover p {
+    color: #3E87D0;
+}
+
+.promo-section {
+    margin-top: 1rem;
+}
+
+.promo {
+    padding: .75rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.promo:nth-child(even) {
+    background: rgb(247, 247, 247);
+}
+
+.promo:nth-child(odd) {
+    background: rgb(233, 233, 233);
+}
+
+.promo img {
+    width: 38%;
+    padding-bottom: 1rem;
+}
+
+.promo div {
+    width: 58%;
+}
+
+.promo p {
+    font-size: .8rem;
+    color: #2F373E;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    line-height: 1.3;
+}
+
+.promo span {
+    font-size: 1rem;
+    color: #2F373E;
+}
+
+.promo:hover {
+    background: rgb(219, 219, 219);
+}
