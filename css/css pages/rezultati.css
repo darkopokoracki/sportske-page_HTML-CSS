@@ -1,0 +1,124 @@
+.path {
+    font-size: .8rem;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    padding: .5rem 0;
+}
+
+.path a {
+    text-decoration: none;
+    color: #3E87D0;
+    transition: 200ms;
+}
+
+.path a:hover {
+    color: #333333;
+}
+
+.rezultati-div img {
+    width: 250px;
+    cursor: pointer;
+}
+
+.rezultati-div-header {
+    background: #18315A;
+    padding: 1rem;
+}
+
+.rezultati-div-header div {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.rezultati-div-header div i {
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+
+.rezultati-div-header div h5 {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+
+/* ---------------- */
+
+.rezultati-wrapper {
+    height: 1000px;
+    background: #292B2E;
+}
+
+.league {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #595D64;
+    padding: 0 .75rem;
+}
+
+.league img {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.league-name {
+    color: #B7C4C8;
+    font-size: 1.3rem;
+}
+
+/* ---------------- */
+
+.rezultati-div-footer {
+    display: flex;
+    border-top: 3px solid #595D64;
+    background: #18315A;
+}
+
+.option {
+    text-align: center;
+    color: #F3F1EE;
+    width: 16.66%;
+    padding: .5rem 0;
+}
+
+.option i {
+    font-size: 1.7rem;
+}
+
+.option p {
+    font-size: 1.3rem;
+}
+
+.option:hover {
+    background: #002766;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    color: #F3F1EE;
+    border-bottom: 1px solid #595D64;
+    padding: .25rem .75rem;
+    align-items: center;
+}
+
+.minutes {
+    font-size: 1.1rem;
+}
+
+.teams .team-1 {
+    margin-bottom: 1rem;
+}
+
+.result {
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+
+.result .result-team-1 {
+    margin-bottom: 1rem;
+}
