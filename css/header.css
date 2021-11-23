@@ -49,6 +49,7 @@
 
 .first-list li {
     list-style: none;
+    /* padding: 0.85rem 1rem; */
 }
 
 .first-list li:hover {
