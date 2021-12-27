@@ -124,3 +124,35 @@
     justify-content: space-between;
     padding-left: 1rem;
 }
+
+@media screen and (max-width: 1040px) {
+    .footer .row-1,
+    .footer .row-2 {
+        display: none;
+    }
+
+    .footer .row-3,
+    .copyright-wrapper {
+        display: block;
+    }
+
+    .copyright-wrapper {
+        margin-top: 2rem;
+    }
+
+    .copyright-wrapper ul {
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .copyright-wrapper ul li {
+        margin-bottom: 1rem;
+    }
+
+    .row-3 li {
+        background: #29487a;
+        padding: 0.4rem;
+        border-radius: 6px;
+    }
+}

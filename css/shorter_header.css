@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+#burger-menu {
+    display: none;
+}
+
 .logo-wrapper {
     margin-right: 1rem;
     padding-left: 1rem;
@@ -63,4 +67,29 @@
     display: block;
     font-size: 0.9rem;
     padding: 0.85rem 1rem;
+}
+
+
+@media screen and (max-width: 1040px) {
+    .header-div {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .header-div .icons,
+    .header-div .subscribe {
+            display: none;
+    }
+
+    #burger-menu {
+        display: block;
+        padding-left: 1rem;
+        color: white;
+        font-size: 2rem;
+    }
+
+    .first-nav,
+    .second-nav {
+        display: none;
+    }
 }

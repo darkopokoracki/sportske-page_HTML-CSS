@@ -16,6 +16,10 @@
     cursor: pointer;
 }
 
+#vesti-dana-img {
+    width: 100%;
+}
+
 .vesti-dana h2 {
     position: absolute;
     left: 12px;
@@ -289,3 +293,25 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 1040px) {
+    /* Najnovije section */
+    .najnovije-section {
+        display: block;
+    }
+
+    .najnovije-left {
+        width: 100%;
+    }
+
+    .vesti-dana .text-wrapper {
+        height: 15%;
+    }
+
+    .najnovije-right {
+        width: 100%;
+    }
+
+    .vesti-right {
+        max-width: 500px;
+    }
+}
