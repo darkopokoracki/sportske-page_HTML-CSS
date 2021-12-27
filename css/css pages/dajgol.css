@@ -121,12 +121,12 @@
 }
 
 .buttons-navigation {
-    width: 50%;
+    width: 60%;
     margin: 2rem auto;
 }
 
 .buttons-navigation button {
-    width: 13%;
+    width: 12%;
     padding: .75rem;
     background: white;
     color: #697171;
@@ -183,4 +183,53 @@
     color: red;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1040px) {
+    .path {
+        display: none;
+    }
+
+    .dajgol {
+        display: block;
+        padding-bottom: 3rem;
+    }
+    
+    .dajgol img {
+        width: 100%;
+    }
+    
+    .dajgol-text-wrapper {
+        width: 100%;
+    }
+
+    .pen-date-comment {
+        margin: 1rem 0;
+    }
+
+    .preporuka {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .preporuka img {
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .path {
+        display: block;
+    }
+
+    .buttons-navigation {
+        width: 80%;
+    }
+    
+    .buttons-navigation button {
+        width: 10%;
+        padding: .75rem;
+        font-size: .8rem;
+    }
 }

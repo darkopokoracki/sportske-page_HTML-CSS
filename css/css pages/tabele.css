@@ -78,4 +78,37 @@
 .table-category h5 {
     font-size: 1.5rem;
     font-weight: normal;
-}   
+}
+
+@media screen and (max-width: 1040px) {
+    .path {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .path {
+        display: none;
+    }
+
+    .table-category i {
+        font-size: 4rem;
+    }
+
+    .table-category h5 {
+        font-size: 1.2rem;
+    }
+
+@media screen and (max-width: 600px) {
+    .path {
+        display: block;
+    }
+
+    .table-category i {
+        font-size: 3rem;
+    }
+
+    .table-category h5 {
+        font-size: 1rem;
+    }
+}

@@ -67,3 +67,48 @@ td {
     color: rgb(250, 250, 250);
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❗</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
+
+
+@media screen and (max-width: 1040px) {
+    .path {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .table th {
+        font-size: .8rem;
+    }
+
+    .table-title {
+        font-size: 1.8rem;
+    }
+
+    .circle {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .path {
+        display: block;
+    }
+
+    .table th {
+        font-size: .75rem;
+    }
+
+    .table-title {
+        font-size: 1.6rem;
+    }
+
+    .circle {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+}
