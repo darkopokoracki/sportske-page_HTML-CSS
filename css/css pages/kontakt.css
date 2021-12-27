@@ -92,3 +92,28 @@ textarea:focus {
 #posalji-btn:hover {
     background-color: #29487A;
 }
+
+@media screen and (max-width: 1040px) {
+    .path {
+        display: none;
+    }
+
+    .form-row-1 {
+        display: block;
+    }
+
+    .ime-prezime-wrapper {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .email-wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .path {
+        display: block;
+    }
+}
