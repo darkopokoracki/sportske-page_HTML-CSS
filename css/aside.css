@@ -96,3 +96,17 @@
 .promo:hover {
     background: rgb(219, 219, 219);
 }
+
+@media screen and (max-width: 600px) {
+    .main-section {
+        flex-wrap: wrap;
+    }
+
+    .main-left {
+        width: 100%;
+    }
+
+    .main-right {
+        width: 100%;
+    }
+}

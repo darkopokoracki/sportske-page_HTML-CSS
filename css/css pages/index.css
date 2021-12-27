@@ -304,7 +304,7 @@
     }
 
     .vesti-dana .text-wrapper {
-        height: 15%;
+        height: 18%;
     }
 
     .najnovije-right {
@@ -313,5 +313,55 @@
 
     .vesti-right {
         max-width: 500px;
+    }
+
+    /* Domaci fudbal */
+    .domaci_fudbal-wrapper {
+        flex-direction: column;
+    }
+
+    .fudbal:not(.fudbal-4) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .75rem;
+    }
+
+    .fudbal:not(.fudbal-4) img {
+        width: 48%;
+    }
+
+    .fudbal .fudbal-txt {
+        width: 48%;
+    }
+
+    .fudbal-4 {
+        width: 100%;
+    }
+
+    /* Preporuka section */
+    .preporuka {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .preporuka img {
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .fudbal:not(.fudbal-4) {
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    .fudbal:not(.fudbal-4) img {
+        width: 100%;
+    }
+
+    .fudbal .fudbal-txt {
+        width: 100%;
     }
 }
