@@ -165,3 +165,30 @@ label[for='checkbox-novosti'] {
     list-style: none;
     margin-bottom: 1.5rem;
 }
+
+
+@media screen and (max-width: 1040px) {
+    .path {
+        display: none;
+    }
+
+    .registracija-row-1,
+    .registracija-row-2,
+    .registracija-row-3 {
+        display: block;
+        margin: 2rem 0;
+    }
+    
+    .registracija-row-1 div,
+    .registracija-row-2 div,
+    .registracija-row-3 div {
+        width: 100%;
+        margin: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .path {
+        display: block;
+    }
+}
