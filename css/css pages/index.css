@@ -365,3 +365,19 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .vesti-dana .text-wrapper {
+        height: 25%;
+    }
+
+    .vesti-dana .text-wrapper {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .vesti-dana .text-wrapper {
+        height: 40%;
+    }
+}

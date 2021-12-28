@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/css pages/tabele.css">
+    <link rel="stylesheet" href="css/mobile_nav.css">
     
     <title>Tabele - Sportske.net</title>
 </head>
@@ -59,6 +60,46 @@
                     <li style="background: #29487A"><a href="tabele.html">Tabele</a></li>
                 </ul>
             </nav>
+
+            <div class="mobile-nav-container hide">
+                <div class="mobile-search-container">
+                    <i class="fas fa-times-circle"></i>
+                    <input type="text" id="mobile-search" placeholder="Pretrazi">
+                    <h2 class="mobile-title">SPORTSKE.NET</h2>
+                </div>
+                <nav class="mobile-nav">
+                    <ul class="first-mobile-list">
+                        <li class="dropdown">
+                            <a href="index.html">Najnovije</a>
+                            <i id="drop" class="far fa-arrow-alt-circle-down"></i>
+                        </li>
+
+                        <!-- Pod menu -->
+                        <ul class="second-mobile-list hide">
+                            <li><a href="index.html">Najnovije</a></li>
+                            <li><a href="#">U fokusu</a></li>
+                            <li><a href="#">Intervjui</a></li>
+                            <li><a href="#">Džet set</a></li>
+                            <li><a href="#">Vremenska mašina</a></li>
+                            <li><a href="#">Top lista</a></li>
+                            <li><a href="dajgol.html">Daj gol</a></li>
+                            <li><a href="#">Ludi sport</a></li>
+                            <li><a href="#">Iz fotelje</a></li>
+                            <li><a href="#">Ultra</a></li>
+                        </ul>
+
+
+                        <li><a href="#">Domaći fudbal</a></li>
+                        <li><a href="#">Ino fudbal</a></li>
+                        <li><a href="#">Transferi</a></li>
+                        <li><a href="#">Košarka</a></li>
+                        <li><a href="#">Tenis</a></li>
+                        <li><a href="#">Ostali</a></li>
+                        <li><a href="rezultati.html">Rezultati</a></li>
+                        <li><a href="tabele.html">Tabele</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <section class="main-section">
@@ -517,5 +558,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="js/mobile_menu.js"></script>
 </body>
 </html>
